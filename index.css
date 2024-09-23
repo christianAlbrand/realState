@@ -1,5 +1,63 @@
-.title-about-us,
+/* .title-about-us,
 .about-us-container{
     padding-left: 2%;
     padding-top: 1%;
+} */
+.container{
+    width: 80%;
+    margin: 0 auto;
 }
+
+.about-us-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-item{
+    margin-right: 5%;
+}
+
+/* houses-item */
+.houses-item{
+    background-color: #dedede;
+    margin-right: 2%;
+    border: 1px solid rgb(170, 170, 170);
+}
+.houses-item-text{
+    padding: 20px;
+}
+
+.houses-item-text p{
+    line-height: 1.5;
+}
+
+.houses-container{
+    display: flex;
+}
+.price-of-house{
+    color: green;
+    font-weight: bold;
+}
+.icon-container{
+    display: flex;
+}
+
+.icon-container img{
+    margin-right: 20px;
+}
+
+.ul-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn{
+    display: block;
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+
