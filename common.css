@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: arial;
+    font-family: "Bebas Neue", sans-serif;
 }
 p{
     line-height: 2;
@@ -16,4 +16,8 @@ h1,h2,h3{
 }
 img{
     max-width: 100%;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
 }

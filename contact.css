@@ -1,0 +1,130 @@
+.contact-header{
+    background-color: orange;
+    height: 150px;
+    color: black;
+}
+
+.contact-header a{
+    color: black;
+}
+
+.container h2,
+.container p{
+    text-align: center;
+}
+
+.bar-menu{
+    padding-top: 2%;
+}
+
+.form-container{
+    background-color: #dedede;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 5%;
+}
+
+legend{
+    font-size: 12px;
+}
+fieldset{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.form-control{
+    margin-bottom: 10px;
+}
+.form-container input,
+.form-container textarea{
+    border: none;
+    width: 70%;
+    padding: 5px;
+    border-radius: 3px;
+}
+.form-control label{
+    display: inline-block;
+    width: 150px;
+}
+
+.form-control select{
+    display: inline-block;
+    width: 71%;
+    text-align: center;
+}
+
+.form-control-info{
+    display: inline-block;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.form-control-info-2{
+    display: inline-block;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.contact-information-container{
+    display: flex;
+    justify-content: left;
+}
+
+.contact-information-section-2 {
+    justify-content: space-around;
+    margin-top: 10%;
+    display: flex;
+}
+
+.contact-information-section-2 input{
+    width: 50%;
+    margin-left: 15%;
+}
+
+footer{
+    background-color: #dedede;
+}
+
+.footer-div{
+    width: 33.33%;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.icon-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.icon-item{
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 20px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+.privacy-text{
+    display: flex;
+    justify-content: center;
+}
+.privacy-text p:last-of-type{
+    border-left: 3px solid black;
+    padding-left: 10px;
+    margin-left:10px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}

@@ -3,9 +3,13 @@
     padding-left: 2%;
     padding-top: 1%;
 } */
-.container{
-    width: 80%;
-    margin: 0 auto;
+
+header{
+    background-image: url(realEstate-img-main/header.jpg);
+    background-size: cover;
+    height: 400px;
+    text-align: center;
+    color: white;
 }
 
 .about-us-container{
