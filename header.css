@@ -8,5 +8,25 @@
 .bar-menu{
     display: flex;
     justify-content: space-between;
+    height: auto;
     align-items: center;
+}
+
+.bar-menu a{
+    color: white;
+}
+
+
+@media(max-width: 768px){
+    .bar-menu{
+        flex-direction: column;
+    }
+    .link-nav-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .link-nav-menu a{
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }

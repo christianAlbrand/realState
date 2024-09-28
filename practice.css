@@ -1,0 +1,35 @@
+thead{
+    background-color: rgb(5, 142, 233);
+    color: rgb(7, 56, 112);
+}
+tbody{
+    background-color: rgb(177, 222, 228);
+}
+td,table{
+    border-bottom: 1px solid white;
+    border-collapse: collapse;
+}
+td,th{
+    padding: 10px;
+    text-align: center;
+}
+.error{
+    background-color: rgb(245, 125, 191);
+    color: rgb(143, 9, 9);
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+@media(max-width:768px){
+    .menu{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+/*
+border-botom
+*/

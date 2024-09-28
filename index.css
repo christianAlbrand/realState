@@ -11,7 +11,6 @@ header{
     text-align: center;
     color: white;
 }
-
 .about-us-container{
     display: flex;
     justify-content: space-between;
@@ -21,6 +20,24 @@ header{
     margin-right: 5%;
 }
 
+@media(max-width:768px){
+    .about-us-container{
+        flex-direction: column;
+    }
+    .about-item{
+        margin-right: 0;
+    }
+    .about-item h3{
+        text-align: center;
+    }
+    .about-item img{
+        display: block;
+        margin: 20px auto;
+    }
+    h2{
+        text-align: center;
+    }
+}
 /* houses-item */
 .houses-item{
     background-color: #dedede;
@@ -65,3 +82,13 @@ header{
     border-radius: 5px;
 }
 
+@media(max-width:768px){
+    .houses-container{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .houses-item{
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+}

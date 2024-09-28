@@ -1,0 +1,37 @@
+.blog-header-container{
+    background-color: rgb(67, 175, 218);
+    text-align: center;
+    color: white;
+}
+
+h2{
+    text-align: center;
+}
+
+.blog-items{
+    background-color: #dedede;
+    border: 1px solid black;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 100%;
+}
+.blog-items img{
+    width: 100%;
+}
+
+.blog-container{
+    display: flex;
+}
+.blog-items-text{
+    padding: 20px;
+}
+
+@media(max-width:768px){
+    .blog-container{
+        flex-direction: column;
+        margin: 20px auto;
+    }
+    .blog-items{
+        margin-bottom: 5%;
+    }
+}
